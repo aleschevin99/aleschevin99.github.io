@@ -1,0 +1,64 @@
+﻿
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* Estilo del contenedor*/
+}
+
+/* COMIENZA Estilo de ancho posicion fondo y color del menu y el footer */
+.fixed-header, .fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+/* TERMINA Estilo de ancho posicion fondo y color del menu y el footer */
+/* COMIENZA Fija el menu en el tope */
+.fixed-header {
+    top: 0;
+}
+/* TERMINA Fija el menu en el tope */
+/* COMIENZA Fija el footer en el fondo*/
+.fixed-footer {
+    bottom: 0;
+}
+/* TERMINA Fija el footer en el fondo*/
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+.container p {
+    line-height: 200px; /* Coloca el ancho en los parrafos*/
+}
+
+/*ESTILO DEL MENU DE IMAGENES*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30%;
+}
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*ESTILO DEL MENU DE IMAGENES*/
